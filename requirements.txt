@@ -1,7 +1,7 @@
 scikit-learn
 joblib
 jsonify
-request
+requests
 Flask
 streamlit
 requests  
