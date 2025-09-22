@@ -24,7 +24,7 @@ if st.button("Predict"):
     }
 
     # url = "customer-churn-prediction-production-097d.up.railway.app/predict" 
-    url = "https://customer-churn-prediction-production-097d.up.railway.app"
+    url = "https://customer-churn-prediction-production-097d.up.railway.app/predict"
 
     response = requests.post(url, json=features)
   
