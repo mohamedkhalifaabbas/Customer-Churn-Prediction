@@ -23,7 +23,9 @@ if st.button("Predict"):
     "features": [CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary]
     }
 
-    url = "http://127.0.0.1:5000/predict" 
+    # url = "customer-churn-prediction-production-097d.up.railway.app/predict" 
+    url = "https://customer-churn-prediction-production-097d.up.railway.app"
+
     response = requests.post(url, json=features)
   
     if response.status_code == 200:
