@@ -1,0 +1,6 @@
+joblib
+jsonify
+request
+Flask
+streamlit
+requests  
